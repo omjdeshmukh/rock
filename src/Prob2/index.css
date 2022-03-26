@@ -1,0 +1,12 @@
+.container {
+  flex-wrap: wrap;
+}
+
+.connOneCard {
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.sideBar {
+  border: 1px solid rgb(173, 173, 173);
+}
