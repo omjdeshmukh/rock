@@ -22,7 +22,7 @@ const UserForm = ({ onClickBack }) => {
         </button>
       </div>
       <div className="container d-flex">
-        <div className="col-9 pe-3">
+        <div className=" pe-3 col-lg-8 col-md-6">
           <h6>ADMIN PANNEL / List of Data</h6>
           <div className="col-4 py-2">
             <input
@@ -33,7 +33,7 @@ const UserForm = ({ onClickBack }) => {
             />
           </div>
           <h6>Connection 1</h6>
-          <div className="d-flex connOneCard py-2 ">
+          <div className="d-flex connCard py-2">
             {mockConn1().map((x) => {
               return (
                 <FileCard
@@ -49,7 +49,7 @@ const UserForm = ({ onClickBack }) => {
             })}
           </div>
           <h6>Connection 2</h6>
-          <div className="d-flex connOneCard py-2">
+          <div className="d-flex connCard mb-4 py-2">
             {mockConn2().map((x) => {
               return (
                 <FileCard
@@ -65,7 +65,7 @@ const UserForm = ({ onClickBack }) => {
             })}
           </div>
         </div>
-        <div className="col-3 sideBar">
+        <div className="sideBar col-lg-4 col-md-6 ">
           <div className="p-3">
             <button type="button" className="btn btn-primary">
               Upload Data
